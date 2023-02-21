@@ -8,9 +8,9 @@ The whole structure is designed for [CLIRMatrix](https://aclanthology.org/2020.e
 
 ```json
 {
-    "src_id": your query id,
-    "src_query": query text,
-    "tgt_results": [[passage_id, relevance score]]
+    "src_id": "your query id",
+    "src_query": "query text",
+    "tgt_results": [["passage_id", "relevance score"]]
 }
 ```
 
